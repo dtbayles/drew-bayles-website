@@ -186,3 +186,8 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+.btn-primary {
+  background: #354f52;
+  border-color: #354f52;
+}
