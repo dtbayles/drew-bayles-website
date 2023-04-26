@@ -1,13 +1,17 @@
 import './App.css';
+import './styles/main.css';
 import LandingPage from './pages/LandingPage';
 import ParticlesBackground from "./components/ParticlesBackground";
 import React from "react";
+import {ThemeProvider} from "@mui/material";
+import theme from "./assets/theme";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <ThemeProvider theme={theme}>
+      {/*<ParticlesBackground />*/}
       <LandingPage />
-    </div>
+    </ThemeProvider>
   );
 }
 
