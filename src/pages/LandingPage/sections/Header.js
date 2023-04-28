@@ -7,7 +7,7 @@ const Header = () => {
 			<div style={{ position: "absolute", zIndex: "1", height: "100vh", top: 0, bottom: 0, left: 0, right: 0 }}>
 				<ParticlesBackground />
 			</div>
-			<div className="bg-cover bg-center flex flex-col h-screen justify-center items-center bg-gray-500">
+			<div className="bg-cover bg-center flex flex-col h-screen justify-center items-center" style={{backgroundColor: "#202226"}}>
 				<div className="text-center text-white">
 					<Typography variant="h1" sx={{ fontWeight: "bold" }}>
 						Drew Bayles
