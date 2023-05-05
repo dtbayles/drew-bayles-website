@@ -1,38 +1,49 @@
-import {Grid, IconButton, Link, Typography} from "@mui/material";
-import { GitHub, LinkedIn } from "@mui/icons-material";
+import {Grid, Typography} from "@mui/material";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import DefaultInfoCard from "components/DefaultInfoCard";
+import {useRef} from "react";
 
 const Contact = () => {
+	const contactRef = useRef(null);
+
 	return (
-		<Grid container spacing={2}>
-			<Grid item xs={12}>
-				<Typography variant="h2">Contact</Typography>
+		<div id="contact" ref={contactRef}>
+			<Grid container item xs={11} spacing={2} sx={{ mx: "auto" }}>
+				<Grid item xs={12}>
+					<Typography variant="h2" color="white.main">Contact me</Typography>
+				</Grid>
+				<Grid item xs={12}>
+					<Grid container spacing={3}>
+						<Grid item xs={12} md={4}>
+							<DefaultInfoCard
+								icon={<MailOutlineIcon />}
+								title="Email"
+								description="Send me an email at dtbayles@gmail.com"
+								link="mailto:dtbayles@gmail.com"
+							/>
+						</Grid>
+						<Grid item xs={12} md={4}>
+							<DefaultInfoCard
+								icon={<LinkedInIcon />}
+								title="LinkedIn"
+								description="Connect with me on LinkedIn"
+								link="https://www.linkedin.com/in/drewbayles/"
+							/>
+						</Grid>
+						<Grid item xs={12} md={4}>
+							<DefaultInfoCard
+								icon={<GitHubIcon />}
+								title="GitHub"
+								description="Check out my projects and contributions on GitHub"
+								link="https://github.com/dtbayles"
+							/>
+						</Grid>
+					</Grid>
+				</Grid>
 			</Grid>
-			<Grid item xs={12}>
-				<Link href="mailto:dtbayles@gmail.com">
-					<Typography variant="h6">Email: dtbayles@gmail.com</Typography>
-				</Link>
-			</Grid>
-			<Grid item xs={12}>
-				<IconButton
-					aria-label="GitHub"
-					component={Link}
-					href="https://github.com/YOUR_GITHUB_USERNAME"
-					target="_blank"
-					rel="noopener"
-				>
-					<GitHub />
-				</IconButton>
-				<IconButton
-					aria-label="LinkedIn"
-					component={Link}
-					href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME"
-					target="_blank"
-					rel="noopener"
-				>
-					<LinkedIn />
-				</IconButton>
-			</Grid>
-		</Grid>
+		</div>
 	);
 };
 

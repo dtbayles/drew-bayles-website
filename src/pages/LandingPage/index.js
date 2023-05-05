@@ -12,10 +12,10 @@ import Contact from "./sections/Contact";
 const LandingPage = () => {
   return (
     <div style={{ display: 'flex', flexDirection: 'row' }}>
-      <div style={{ width: '15%', backgroundColor: '#202226' }}>
+      <div className="hidden md:block w-1/6" style={{ backgroundColor: '#202226' }}>
         <Navbar />
       </div>
-      <div style={{ width: '85%', backgroundColor: '#202226' }}>
+      <div className="w-full md:w-5/6" style={{ backgroundColor: '#202226' }}>
         <Header />
         <Card
           sx={{
@@ -23,7 +23,7 @@ const LandingPage = () => {
             mx: { xs: 2, lg: 3 },
             mt: 0,
             mb: 4,
-            zIndex: 100
+            backgroundColor: '#2D3035',
           }}
         >
           <Skills />

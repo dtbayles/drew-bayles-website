@@ -1,21 +1,17 @@
-import musiclight from "../../../../assets/images/portfolio/musiclight.png";
-import flappyRafleeki from "../../../../assets/images/portfolio/flappy-rafleeki.png";
-import tradingBot from "../../../../assets/images/portfolio/trading-bot.png";
+import musiclight from "assets/images/portfolio/musiclight.png";
+import flappyRafleeki from "assets/images/portfolio/flappy-rafleeki.png";
+import tradingBot from "assets/images/portfolio/trading-bot.png";
+import dreamtech from "assets/images/portfolio/dreamtech.png";
 
 const portfolio = [
 	{
-		title: "React Website",
+		title: "React Nonprofit Website",
 		image: musiclight,
-		description: "MusicLight's website was added to my portfolio site as a full stack development project. The site was built using ReactJS for the frontend, with various UI components from Material-UI library. The backend was developed using Node.js and Express.js, with data stored in a MySQL database. The website includes features such as user authentication, a dynamic blog with CRUD functionality, and a responsive design that adjusts to different screen sizes.",
-		githubLink: "",
+		description: "MusicLight's website was developed as a frontend project, showcasing my skills in ReactJS and front-end design. Using the Material-UI library, I created a series of visually stunning and responsive UI components, optimized for all screen sizes. The end result is a user-friendly, aesthetically pleasing website that highlights the client's music services in the best possible light.",
 		links: [
 			{
-				type: "github",
-				url: "https://github.com/user/project1",
-			},
-			{
 				type: "demo",
-				url: "https://project1.demo.com",
+				url: "https://www.musiclight.org/",
 			},
 		],
 	},
@@ -26,11 +22,7 @@ const portfolio = [
 		links: [
 			{
 				type: "github",
-				url: "https://github.com/user/project1",
-			},
-			{
-				type: "demo",
-				url: "https://project1.demo.com",
+				url: "https://github.com/dtbayles/Flappy-Rafleeki",
 			},
 		],
 	},
@@ -41,19 +33,19 @@ const portfolio = [
 		links: [
 			{
 				type: "github",
-				url: "https://github.com/user/project1",
-			},
-			{
-				type: "demo",
-				url: "https://project1.demo.com",
+				url: "https://github.com/dtbayles/td-ameritrade-bot",
 			},
 		],
 	},
 	{
-		title: "Project title",
-		image: musiclight,
-		description: "MusicLight's website was added to my portfolio site as a full stack development project. The site was built using ReactJS for the frontend, with various UI components from Material-UI library. The backend was developed using Node.js and Express.js, with data stored in a MySQL database. The website includes features such as user authentication, a dynamic blog with CRUD functionality, and a responsive design that adjusts to different screen sizes.",
+		title: "React Dev Shop React Website",
+		image: dreamtech,
+		description: "I built a stunning website using React for Dream Tech. As a developer, I'm proud to showcase my skills and creativity through this beautifully designed and fully responsive website that highlights the services of the dev shop. With its clean layout, eye-catching graphics, and user-friendly interface, it's a perfect example of how I can help businesses establish a strong online presence.",
 		links: [
+			{
+				type: "demo",
+				url: "https://www.dreamtechlab.com/",
+			},
 		],
 	},
 ]
