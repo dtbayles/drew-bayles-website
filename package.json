@@ -1,6 +1,7 @@
 {
   "name": "drew-bayles-website",
   "version": "0.1.0",
+  "homepage": "https://dtbayles.github.io/drew-bayles-website",
   "private": true,
   "dependencies": {
     "@emotion/cache": "11.10.5",
