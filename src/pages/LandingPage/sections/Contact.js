@@ -10,7 +10,7 @@ const Contact = () => {
 
 	return (
 		<div id="contact" ref={contactRef}>
-			<Grid container item xs={11} spacing={2} sx={{ mx: "auto" }}>
+			<Grid container item xs={11} spacing={2} sx={{ mx: "auto" }} mb={6}>
 				<Grid item xs={12}>
 					<Typography variant="h2" color="white.main">Contact me</Typography>
 				</Grid>

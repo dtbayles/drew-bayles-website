@@ -7,7 +7,7 @@ const Resume = () => {
 
 	return (
 		<div id="resume" ref={resumeRef}>
-			<Box component="section" py={6} my={6}>
+			<Box component="section" pt={6} my={6}>
 				<Grid container item xs={11} spacing={3} sx={{ mx: "auto" }}>
 					<Grid item xs={12} lg={8} sx={{ ml: "auto" }}>
 						<Grid container spacing={0}>
