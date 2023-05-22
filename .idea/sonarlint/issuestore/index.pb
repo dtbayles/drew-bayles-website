@@ -17,3 +17,5 @@ N
 src/components/Navbar/index.js,7/6/76ffedc97f48bd319432f8c720b746ec14cddf2f
 X
 (src/pages/LandingPage/sections/Header.js,0/d/0df0830b8a58c88f04260de4c7449c34235e545b
+D
+public/manifest.json,4/2/42e89cd2213b9d5dfae4f63522702c623170d792
