@@ -1,5 +1,16 @@
 const experiences = [
 	{
+		title: "Software Engineer",
+		company: "TaxBit",
+		date: "September 2023 - Present",
+		location: "Draper, UT",
+		bulletPoints: [
+			"Spearhead end-to-end setup and support for blockchain integration, enhancing capabilities in handling data",
+			"Collaborate seamlessly across interdisciplinary teams to ensure efficient data engineering processes",
+			"Proficiently work with technologies such as ReactJS, Flask, PostgreSQL, and Amazon Web Services (AWS)"
+		]
+	},
+	{
 		title: "Software Engineer Intern",
 		company: "TaxBit",
 		date: "June 2022 - March 2023",

@@ -19,7 +19,7 @@ const Navbar = () => {
 				left: 0,
 				top: 0,
 				height: "100%",
-				width: "15%",
+				width: "20%",
 				backgroundColor: "#2D3035",
 				zIndex: 100,
 				display: "flex",
